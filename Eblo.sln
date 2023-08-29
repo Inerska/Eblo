@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "eblo-api\src\WebAPI\WebAPI.csproj", "{E2FA9D5F-5B74-4775-8790-B7861BB8B538}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eblo.Core", "src\Eblo.Core\Eblo.Core.csproj", "{E66D9CCD-8D82-4A6A-B3EF-DCFAE6A39761}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "eblo-api\src\Application\Application.csproj", "{411ECB31-1ED0-49B2-9C81-713EC3A7A13D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eblo.Infrastructure", "src\Eblo.Infrastructure\Eblo.Infrastructure.csproj", "{1CB9817A-C088-4ADC-83C1-00CE84DFA0C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "eblo-api\src\Infrastructure\Infrastructure.csproj", "{D4C51B13-E459-44F6-9F5F-4404C772605C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "eblo-api\src\Domain\Domain.csproj", "{8A29F673-395F-48EF-9A27-26BC2CAE218D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eblo.UseCases", "src\Eblo.UseCases\Eblo.UseCases.csproj", "{678F0387-4879-4DC9-A35A-45DB841A63B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +34,21 @@ Global
 		{8A29F673-395F-48EF-9A27-26BC2CAE218D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A29F673-395F-48EF-9A27-26BC2CAE218D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A29F673-395F-48EF-9A27-26BC2CAE218D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC79980-4C77-4B69-8217-A385B94759EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC79980-4C77-4B69-8217-A385B94759EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC79980-4C77-4B69-8217-A385B94759EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC79980-4C77-4B69-8217-A385B94759EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E66D9CCD-8D82-4A6A-B3EF-DCFAE6A39761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E66D9CCD-8D82-4A6A-B3EF-DCFAE6A39761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E66D9CCD-8D82-4A6A-B3EF-DCFAE6A39761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E66D9CCD-8D82-4A6A-B3EF-DCFAE6A39761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB9817A-C088-4ADC-83C1-00CE84DFA0C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB9817A-C088-4ADC-83C1-00CE84DFA0C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB9817A-C088-4ADC-83C1-00CE84DFA0C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB9817A-C088-4ADC-83C1-00CE84DFA0C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{678F0387-4879-4DC9-A35A-45DB841A63B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678F0387-4879-4DC9-A35A-45DB841A63B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678F0387-4879-4DC9-A35A-45DB841A63B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678F0387-4879-4DC9-A35A-45DB841A63B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
